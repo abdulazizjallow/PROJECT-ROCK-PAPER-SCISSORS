@@ -4,4 +4,6 @@ const choice = ['rock', 'paper', 'scissors'];
 const computerPlay = function (chioce) {
     return choice[Math.floor(Math.random()*choice.length)];
 }
-console.log(computerPlay())
+
+const computerSelection = computerPlay();
+const playerSelection = prompt("Please enter your choice: ");
