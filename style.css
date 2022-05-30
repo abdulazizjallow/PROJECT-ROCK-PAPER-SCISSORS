@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #E0DDF4;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 4.5rem;
+    padding: 40px 0px;
+    color: #460D09;
+}
+
+.play-title {
+    font-size: 3.5rem;
+    color: #95455A;
+}
+
+.instruction {
+    font-size: 3rem;
+    color: #AF3636;
+    padding-top: 20px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.btn {
+    padding: 12px;
+    font-size: 2rem;
+    margin: 3px;
+    border: 4px solid #460D09;
+    font-weight: bold;
+    background-color: #D45069;
+    cursor: pointer;
+}
+
+#rock {
+    padding: 0px 35px;
+}
+
+#paper {
+    padding: 0px 35px;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5F0B42;
+}
+ 
+.players {
+    margin: 0px 12px;
+}
+
+.score-output {
+    display: flex;
+    justify-content: center;
+
+}
+
+.output {
+    padding: 25px 80px;
+    margin: 0px 5px;
+    border: 4px solid #1B1B1F;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+.result {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.result-output {
+    display: flex;
+    justify-content: center;
+
+}
+
+.winner-output {
+    padding: 50px 150px;
+    border: 4px solid #1B1B1F;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.btn-play_again {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+.play-again {
+    padding: 10px;
+    border: 1px solid #1B1B1F;
+    background-color: #5F0B3D;
+    color: #AF3636;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
